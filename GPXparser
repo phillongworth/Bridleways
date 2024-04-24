@@ -49,9 +49,8 @@
 </head>
 <body>
     <div id='myMap' style="position:relative; width:600px; height:600px;"></div>
-    <input type="button" value="Local file (GPX file of Bridleways)" onclick="LoadGPX('C:\Users\phill\Downloads\rowmapsCAbr.gpx')" />
-    <input type="button" value="Local file (UK tourist locations)" onclick="LoadGPX('/data/gpx/Tourist_locations_UK-England.xml')" />
-
+    <input type="button" value="Local file (GPX file of Bridleways)" onclick="LoadGPX('rowmapsCAbr.gpx')" />
+   
     <script>
         // Dynamic load the Bing Maps Key and Script
         // Get your own Bing Maps key at https://www.microsoft.com/maps
